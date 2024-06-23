@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header i{
+    display: none;
+}
+.header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+  
+
+
+
+
+
+
+
+
+@media screen and(max-width: 600px) {
+ 
+   .header i{
+    display: block;
+    font-size: 60px;
+   }
+   ul li{
+    display: none;
+     
+
+   }
+ 
+
+}
